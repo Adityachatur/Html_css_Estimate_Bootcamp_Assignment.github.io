@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Layout</title>
+    <style>
+        /* Reset default margin and padding for better consistency */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #87CEEB;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  color: white;
+  font-size: 28px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+header nav ul li a:hover {
+  background-color: #fff;
+  color: #87CEEB;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+main {
+ padding: 20px;
+  height: 78vh;
+  background: #f5fcff;
+}
+.main,h2{
+    font-size: 24px;
+}
+
+
+.footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  /* CSS styles for screens with a maximum width of 600px */
+  header {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <nav>
+         
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+      <main class="main">
+        
+        <h2>Main Content Area</h2>
+        <p>This is the main content of the webpage.</p>
+      </main>
+
+      <footer class="footer">
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+      </footer>
+</body>
+</html>
